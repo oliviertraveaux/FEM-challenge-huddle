@@ -1,0 +1,95 @@
+/* Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Utilities */
+
+:root {
+  --primary-color: #ff52bf;
+  --very-pale-cyan: #ebfbff;
+  --very-dark-cyan: #00252e;
+  --grayish-blue: #808d99;
+  --font-open-sans: "Open Sans", sans-serif;
+  --font-popins: "Poppins", sans-serif;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: var(--font-open-sans);
+}
+
+body img {
+  width: 100%;
+}
+
+/* Material */
+
+.btn {
+  width: 12.5rem;
+  min-width: 10rem;
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  border: 0;
+  border-radius: 5rem;
+  box-shadow: 0px 2px 10px 2px rgb(0 0 0 / 10%);
+  font-family: var(--font-open-sans);
+  font-weight: 700;
+}
+
+.btn_pink {
+  width: auto;
+  padding: 1.4rem 5rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+/* Header  */
+
+header {
+  padding: 2rem 2.5rem;
+  width: 100%;
+  text-align: center;
+  background: url(img/bg-hero-mobile.svg);
+}
+
+.header-content {
+  padding: 8rem 2rem;
+  justify-content: center;
+  width: auto;
+}
+
+.header-content h1 {
+  font-size: 2.5rem;
+}
+
+.header-content_intro {
+  padding: 4rem 0rem 4rem;
+  font-size: 1.8rem;
+}
+
+.header-content img {
+  padding-top: 4rem;
+}
+
+.head-nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+}
+
+.head-nav_logo {
+  width: 12.5rem;
+}
+
+/* Main */
